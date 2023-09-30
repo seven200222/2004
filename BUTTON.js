@@ -1,0 +1,1 @@
+const MESSAGE = document.getElementById("btn");

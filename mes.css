@@ -1,0 +1,63 @@
+/* mes.css */
+
+body {
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250vh;
+  margin: 0;
+}
+.message {
+  text-align: center;
+  max-width: 80%;
+  padding: 20px;
+  background-image: url('letter.jpg');
+  background-size: fill;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  transform-origin: top left;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.ay {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+audio {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.mel {
+  max-width: 100%;
+  height: 50%;
+  padding: 11px;
+  background-image: none;
+  background-size: none;
+  border-radius: 10px;
+}
+.anim {
+  width: 80px;
+  height: 100px;
+  border-radius: 10px;
+  background: #FC4C4E;
+  transition: width 2s;
+}
+
+.anim:hover {
+  width: 276px;
+}
+
+.v {
+  color: #fbfbf9;
+  position: relative; /* Change to relative positioning */
+  top: 10px; /* Adjust this value to set the vertical position below other elements */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center horizontally */
+  cursor: move; /* Change cursor to indicate that it's draggable */
+}
